@@ -11,6 +11,7 @@
 
 .maincontainer{
     width: 100%;
+    padding: 10px;
     /* background-color: #F2F6F7; */
     background-color: #5c727d0e;
 }
@@ -130,8 +131,9 @@
 /* main hero section */
 .mainheroimg{
     background-image: url('./images/13.jpg');
-    background-size: 110%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: left center;
 }
 .mainheocontent{
     padding-bottom: 20px;
@@ -252,8 +254,8 @@ color: #0A9A73;
     /* border: 1px solid blue; */
 }
 .medicalgoodsimg img{
-    width: 100%;
-    height:100%;
+    /* width: 100%;
+    height:100%; */
 }
 .medicalgoodscontent{
     width: 50%;
@@ -311,8 +313,8 @@ color: #0A9A73;
     border-radius: 50%;
 }
 .authorimg img{
-    width: 100%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 .authorname h4{
@@ -349,7 +351,7 @@ color: #0A9A73;
     /* border: 1px solid black; */
 }
 .addresslogo img{
-    width: 100%;
+    width: 70px;
     height: 100%;
 }
 .addressdetails h5{
@@ -430,8 +432,8 @@ color: #0A9A73;
     
 }
 .featuredproductimg{
-    width: 25%;
-    height: 100%;
+    width: 500px;
+    height: 380px;
     /* border: 1px solid black; */
 }
 .featuredproductimg img{
@@ -447,8 +449,8 @@ color: #0A9A73;
     height: 100%;
 }
 .featuredproductimg1{
-    width: 85%;
-    height:100%;
+    /* width: 85%;
+    height:100%; */
     /* border: 1px solid black; */
 }
 .featuredproductimg1 img{
@@ -467,12 +469,15 @@ color: #0A9A73;
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     margin-left:5px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 .featureproductamt1{
     font-family: "Nunito Sans", sans-serif;
     display: inline-block;
     font-size: 14px;
-    margin-left: 5px;
+    padding-left: 15px;
 }
 .featureproductamt2{
     font-family: "Nunito Sans", sans-serif;
@@ -651,12 +656,14 @@ color: #0A9A73;
 .lproduct-name{
     width: 100%;
     height: 20%;
+    padding: 20px;
     /* border: 1px solid red; */
 }
 .lproduct-name h5{
     font-family: "Josefin Sans", sans-serif;
     font-size: 17px;  
     line-height: 1.5; 
+    padding-bottom: 10px;
 }
 .lproduct-name h6{
     font-family: "Nunito Sans", sans-serif;
@@ -680,7 +687,7 @@ color: #0A9A73;
 }
 .productareacontainer{
     width: 100%;
-    height: 80%;
+    height: 90%;
     background-color: #F2F6F7;
     /* border: 1px solid blue; */
     display: flex;
@@ -741,8 +748,8 @@ color: #0A9A73;
     /* border: 1px solid black; */
 }
 .pacontent-background{
-    width: 30%;
-    height: 70%;
+    width: 50px;
+    height: 50px;
     /* border: 1px solid black; */
     border-radius: 50%;
     background-color: #0A9A73;
@@ -807,7 +814,7 @@ footer{
 }
 .footercontainer{
     width: 95%;
-    height: 80%;
+    height: 90%;
     /* border: 1px solid black; */
     margin-top: 50px;
     display: flex;
@@ -982,7 +989,7 @@ footer{
 }
 .copyright{
     width: 100%;
-    height: 60px;
+    padding: 20px;
     background-color: #282b38;
     display: flex;
     justify-content: center;
@@ -1048,12 +1055,13 @@ footer{
     .mainhero{
         height:400px;
     }
-    .mainheroimg img{
+    /* .mainheroimg img{
         height: 400px;
         background-image: url('./images/13.jpg');
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
-    }
+        background-position: left center;
+    } */
     .mainherocont{
         position: relative;
         right: 60px;
